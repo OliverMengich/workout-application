@@ -1,0 +1,15 @@
+.holder{
+    display: flex;
+    flex-wrap: wrap;
+}
+.component{
+    text-align: center;
+    width: 500px;
+    margin: 20px 70px;
+    border-radius: 20px;
+    background-color: white;
+}
+.video-section img{
+    width: 200px;
+    height: 300px;
+}
