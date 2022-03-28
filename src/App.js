@@ -30,6 +30,12 @@ class App extends React.Component {
       case 5:
         this.setState({ day: days[4], workout: 'Triceps and Abs', index: 4})
         break;
+      case 6:
+        this.setState({ day: days[5], workout: 'Rest'})
+        break;
+      case 7:
+        this.setState({day: days[6], workout: 'Rest'});
+        break;
       default:
         break;
     }

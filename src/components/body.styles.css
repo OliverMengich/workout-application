@@ -1,15 +1,21 @@
 .holder{
     display: flex;
     flex-wrap: wrap;
+    width: 100vw;
 }
 .component{
     text-align: center;
     width: 500px;
-    margin: 20px 70px;
+    margin: 20px auto;
     border-radius: 20px;
     background-color: white;
 }
 .video-section img{
-    width: 200px;
+    width: 90%;
     height: 300px;
+}
+@media(max-width:570px){
+    .component{
+        width: 300px;
+    }
 }

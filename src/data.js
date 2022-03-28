@@ -205,5 +205,12 @@ const data = {
             'demoimg': 'plank.gif'
         },
     ],
+    'Rest': [
+        {
+            name: 'Rest',
+            reps: 'All day',
+            demoimg : ''
+        }
+    ]
 }
 export default data;
