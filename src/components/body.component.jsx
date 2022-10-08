@@ -11,7 +11,7 @@ const Body = ({ workout }) => (
                         <div className="video-section">
                             <img src={require(`./images/${item.demoimg}`)} alt={item.name} />
                             <h1>{workout}</h1>
-                        </div>
+                        </div> 
                         <h2>{item.name}</h2>
                         <h3>{item.reps}</h3>
                     </div>

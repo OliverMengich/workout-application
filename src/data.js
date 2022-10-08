@@ -209,7 +209,7 @@ const data = {
         {
             name: 'Rest',
             reps: 'All day',
-            demoimg : ''
+            demoimg : 'rest.png'
         }
     ]
 }
